@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 2.2: Processor initialization (Linux)
 
 We stopped our exploration of the Linux kernel at [stext](https://github.com/torvalds/linux/blob/v4.14/arch/arm64/kernel/head.S#L116) function, which is the entry point of `arm64` architecture. This time we are going to go a little bit deeper and find some similarities with the code that we have already implemented in this and previous lessons. 

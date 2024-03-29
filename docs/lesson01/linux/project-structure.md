@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 1.2: Linux project structure
 
 This is the first time we are going to talk about Linux. The idea is first to complete some small step in writing our own kernel, and then take a look at how the same things work in Linux. So far we have done very little: we just implemented our first bare metal hello world program, Still, we will be able to find some similarities between the RPi OS and Linux. And now we are going to explore some of them.

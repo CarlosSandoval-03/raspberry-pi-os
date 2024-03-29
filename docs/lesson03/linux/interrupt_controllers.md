@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 3.3: Interrupt controllers
 
 In this chapter, we are going to talk a lot about Linux drivers and how they handle interrupts. We will start with driver initialization code and then take a look at how interrupts are processed after [handle_arch_irq](https://github.com/torvalds/linux/blob/v4.14/arch/arm64/kernel/irq.c#L44) function.

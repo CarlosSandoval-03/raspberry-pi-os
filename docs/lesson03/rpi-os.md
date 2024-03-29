@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 3.1: Interrupts
 
 From the lesson 1, we already know how to communicate with hardware. However, most of the time the pattern of communication is not that simple. Usually, this pattern is asynchronous: we send some command to a device, but it doesn't respond immediately. Instead, it notifies us when the work is completed. Such asynchronous notifications are called "interrupts" because they interrupt normal execution flow and force the processor to execute an "interrupt handler".

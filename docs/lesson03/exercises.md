@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 3.5: Exercises
 
 1. Use local timer instead of the system timer to generate processor interrupts. See [this](https://github.com/s-matyukevich/raspberry-pi-os/issues/70) issue for details.

@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 4.4: Scheduler
 
 We have already learned a lot of details about the Linux scheduler inner workings, so there is not so much left for us. To make the whole picture complete in this chapter we will take a look at 2 important scheduler entry points:

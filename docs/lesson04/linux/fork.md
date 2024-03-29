@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 4.3: Forking a task
 
 Scheduling is all about selecting a proper task to run from the list of available tasks. But before the scheduler will be able to do its job we need to somehow fill this list. The way in which new tasks can be created is the main topic of this chapter. 

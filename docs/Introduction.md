@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## Raspberry Pi OS project introduction or how to efficiently learn operating system development?
 
 A few years ago, I opened the source code of the Linux kernel for the first time. At that time, I considered myself more or less a skillful software developer: I knew a little bit of assembler and C programming, and had a high-level understanding of major operating system concepts, such as process scheduling and virtual memory management. However, my first attempt was a complete failure - I understood almost nothing.

@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 2.3: Exercises
 
 1. Instead of jumping directly from EL3 to EL1, try to get to EL2 first and only then switch to EL1. 

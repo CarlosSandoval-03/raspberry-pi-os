@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 1.5: Exercises.
 
 Exercises are optional, though I strongly recommend you to experiment with the source code a little bit. If you were able to complete any of the exercises - please share your source code with others. For details see the [contribution guide](../Contributions.md).
