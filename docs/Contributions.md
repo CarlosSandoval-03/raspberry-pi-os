@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## Contributing to the Raspberry PI OS
 
 The general workflow is the following:

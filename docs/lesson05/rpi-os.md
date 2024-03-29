@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 5.1: User processes and system calls
 
 We have already added a lot of features to the RPi OS that makes it looks like an actual operating system instead of just a bare metal program. The RPi OS can now manage processes, but there is still a major drawback in this functionality: there is no process isolation at all. In this lesson, we are going to fix this issue. First of all, we will move all user processes to EL0, which restricts their access to privileged processor operations. Without this step any other isolation techniques don't make sense, because any user program will be able to rewrite our security settings, thus breaking from isolation. 

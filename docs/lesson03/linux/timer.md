@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 3.4: Timers
 
 We finished the last chapter by examining global interrupt controller. We were able to trace the path of a timer interrupt all the way up to the [bcm2836_chained_handle_irq](https://github.com/torvalds/linux/blob/v4.14/drivers/irqchip/irq-bcm2835.c#L246) function. Next logical step is to see how the timer driver handles this interrupt. However, before we can do this, you need to familiarize yourself with a few important concepts related to timer functionality. All of them are explained in the [official kernel documentation](https://github.com/torvalds/linux/blob/v4.14/Documentation/timers/timekeeping.txt), and I strongly advise you to read this document. But for those who are too busy to read it, I can provide my own brief explanation of the mentioned concepts.

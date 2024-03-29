@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 4.5: Exercises
 
 1. Add `printf` to all main kernel functions to output information about the curent memory and processor state. Make sure that the state diagrams, that I've added to the end of the RPi OS part of this lesson, are correct.  (You do not necessarily need to output all state each time, but as soon as some major event happens you can output current stack pointer, or address of the object that has just been allocated, or whatever you consider necessary. Think about some mechanism to prevent information overflow) 

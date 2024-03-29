@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 4.2: Scheduler basic structures
 
 In all previous lessons we have been working mostly with either architecture specific code or driver code, and now it is the first time we will dig deep into the core of the Linux kernel. This task isn't simple, and it requires some preparations: before you will be able to understand the Linux scheduler source code, you need to become familiar with a few major concepts that the scheduler is based on.

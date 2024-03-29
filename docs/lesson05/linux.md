@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 5.2: User processes and system calls 
 
 This chapter is going to be a short one. The reason is that I copied syscall implementation from Linux to RPi OS almost precisely, therefore it doesn't require a lot of explanations. But still I want to guide you through the Linux source code so that you can see where and how a particular syscall functionality is implemented.

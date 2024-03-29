@@ -1,3 +1,10 @@
+<!--
+/*
+ * SPDX-FileCopyrightText: 2018 Sergey Matyukevich <s.matyukevich@gmail.com>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+-->
 ## 4.1: Scheduler
 
 By now, the PRi OS is already a fairly complicated bare metal program, but to be honest, we still can't call it an operating system. The reason is that it can't do any of the core tasks that any OS should do. One of such core tasks is called process scheduling. By scheduling I mean that an operating system should be able to share CPU time between different processes. The hard part of it is that a process should be unaware of the scheduling happening: it should view itself as the only one occupying the CPU. In this lesson, we are going to add this functionality to the RPi OS.
